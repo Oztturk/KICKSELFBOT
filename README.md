@@ -16,7 +16,7 @@ This project allows you to use your own Kick channel like a bot — send message
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/<your-username>/kick-self-bot.git
+    git clone https://github.com/Oztturk/KICKSELFBOT
     cd kick-self-bot
     ```
 2. Install dependencies:
@@ -75,9 +75,13 @@ requirements.txt
 Explanation:
 
 ``API/`` → Handles Kick API communication (auth, messages)
+
 ``Classes/`` → Core classes like command handler and rate limiter
+
 ``Commands/`` → Your custom bot commands
+
 ``config/`` → Environment and configuration management
+
 ``Websocket/`` → WebSocket client that connects and listens to events
 
 ‼️Notes
