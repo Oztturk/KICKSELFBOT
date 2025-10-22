@@ -30,15 +30,15 @@ This project allows you to use your own Kick channel like a bot — send message
         KICK_AUTH_TOKEN=YOUR_KICK_AUTH_TOKEN_HERE
         CHANNEL_NAME=YOUR_CHANNEL_NAME_HERE
     ```
-    ❗Never share your auth token publicly. Treat it like a password.
+❗Never share your auth token publicly. Treat it like a password.
 
 
 🚀 Usage
-    ```bash
+```
     python src/main.py
     or
     python -m src.main
-    ```
+```
 📁 Project Structure
 
 ```
